@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Biografia</title>
+    <link rel="stylesheet" href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
+    <link rel="stylesheet" href="/css/style.css">
+
+
+</head>
+<body>
+    <div class="wrapper">
+      
+        <main class="main">
+            <div class="info-content">
+                <h1>Soy Jose David <span class="multiple-text"></span></h1>
+                <p>Me llamo Soy José David, un joven de 20 años estudio tecnologia en sistema
+                    y sueño con estudiar ingenieria en sistemas y volverme profesional en el area 
+                de sistemas y ser ejemplo para los demas </p>
+                <div class="social-media">
+                    <a href="https://www.facebook.com/josedavid03213"><i class='bx bxl-facebook'></i></a>
+                    <a href="https://www.instagram.com/jose_david_perafan/"><i class='bx bxl-instagram'></i></a>
+                    <a href="https://twitter.com/SoyJose_David"><i class='bx bxl-twitter'></i></a>
+                </div>
+            </div>
+            <div class="home-img">
+                <img src="/img/fotodavid2.jpeg" alt="">
+            </div>
+
+        </main>
+    </div>
+
+    <div class="about">
+        <img src="/img/foto2.jpeg" alt="">
+        <div class="about-info">
+            <h2>Más sobre mi</h2>
+            <div class="divider"></div>
+            <p> Naci en la ciudad de Popayán y he vivido toda mi vida en esta hermosa ciudad 
+              desde pequeño tuve una cualidad y era de ser muy introvertido e inquieto en la foto tenia
+              la edad de 8 meses 
+            </p>
+      
+
+        </div>
+    </div>
+    <button id="botonMostrarOcultar" class="boton">Mostrar / Ocultar Foto</button>
+
+    <div class="wrapper2">
+        <div class="about2">
+            <img id="foto" src="/img/foto3.jpeg" alt="">
+            <div class="about2-info">
+                <h2> Mis padres</h2>
+                <div class="divider2"></div>
+                <p>Ellos son mis padres son los que me han ayudado en todo y han sido mi ejemplo a seguir
+                    gracias a ellos tengo todo hasta ahora y he vivido toda mi vida con ellos :)
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="seccionContacto">
+        <h2>Contacto</h2>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" placeholder="Ingrese su nombre">
+    
+        <button id="mostrarInfo">Mostrar Información</button>
+    
+        <p id="resultado" style="display: none;"></p>
+    </div>
+
+<script src="/js/js.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11/lib/typed.min.js"></script>
+
+    <script>
+        var typed = new Typed(".multiple-text", {
+            strings: ["Desarrollador", "Técnico", "Streamer", "Estudiante"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            backDelay: 1000,
+            loop: true
+            });
+    </script>
+</body>
+</html>
